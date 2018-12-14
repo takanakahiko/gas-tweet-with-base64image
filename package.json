@@ -1,0 +1,27 @@
+{
+  "name": "gas-tweet-with-base64image",
+  "version": "1.0.0",
+  "description": "My dazzling Google Apps Script project",
+  "author": "takanakahiko",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --fix src/**/*.ts",
+    "test": "jest",
+    "preprocess": "npm run lint && npm run testecho \"lint and jest are not available\"",
+    "dev": "watch \"npm run preprocess && clasp push\" ./src",
+    "dev:local": "watch \"npm run preprocess\" ./src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "watch": "latest",
+    "typescript": "latest",
+    "@types/google-apps-script": "latest",
+    "tslint": "latest",
+    "prettier": "latest",
+    "tslint-config-prettier": "latest",
+    "tslint-plugin-prettier":  "latest",
+    "jest": "latest",
+    "@types/jest": "latest",
+    "ts-jest": "latest"
+  }
+}
