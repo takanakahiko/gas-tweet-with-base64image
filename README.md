@@ -31,7 +31,7 @@ $ npm run dev
 ## License
 This software is released under the MIT License, see LICENSE.txt.
 
-This template was made by [template-clasp](github.com/takanakahiko/template-clasp).
+This template was made by [sao-clasp](github.com/takanakahiko/sao-clasp).
 ( MIT &copy; [takanakahiko](github.com/takanakahiko) )
 
 This template was made based on [gas-clasp-starter](github.com/howdy39/gas-clasp-starter).
