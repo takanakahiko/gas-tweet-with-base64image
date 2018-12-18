@@ -10,3 +10,5 @@ node_modules/
 
 # Editor
 .idea/
+creds.json
+.clasprc.json

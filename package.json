@@ -19,9 +19,12 @@
     "tslint": "latest",
     "prettier": "latest",
     "tslint-config-prettier": "latest",
-    "tslint-plugin-prettier":  "latest",
+    "tslint-plugin-prettier": "latest",
     "jest": "latest",
     "@types/jest": "latest",
     "ts-jest": "latest"
+  },
+  "dependencies": {
+    "ts-transformer-keys": "0.3.4"
   }
 }

@@ -1,6 +1,25 @@
 {
-  "timeZone": "Asia/Tokyo",
+  "timeZone": "America/New_York",
   "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "OAuth1",
+        "libraryId": "1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s",
+        "version": "16"
+      }
+    ],
+    "enabledAdvancedServices": []
   },
-  "exceptionLogging": "STACKDRIVER"
+  "executionApi": {
+    "access": "ANYONE"
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/drive"
+  ]
 }
